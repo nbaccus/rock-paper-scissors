@@ -1,0 +1,43 @@
+body {
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+button {
+
+	background-color:#5ab1d1;
+	border:1px solid #3e83ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;	
+
+}
+
+button:disabled {
+opacity:40%;
+}
+
+button:hover {
+text-decoration:underline;
+}
+
+#rock {
+background-color: rgb(166, 166, 166);
+}
+#paper {
+background-color: rgb(255, 255, 230);
+color: rgb(41, 61, 61);
+}
+
+#scissors {
+background-color:rgb(255, 102, 102); 
+}
+
+#restart {
+position: absolute;
+bottom: 40%;
+left:0;
+}

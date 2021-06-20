@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+ 	<link rel="stylesheet" href="styles.css">
         <title> Rock Paper Scissors</title>
     </head>
     <body>
         <h1>Welcome to Rock, Paper, Scissors!</h1>
-        <p>Please load the console to play.</p>
-        <script type="text/javascript" src="js/script.js"></script>
+<label for="roundsslct"> How many rounds do you want to play? (Up to 5)</label>
+<select name="roundsslct" id="roundsslct">
+<option value=1> 1 </option>
+<option value=2> 2</option>
+<option value=3> 3</option>
+<option value=4> 4</option>
+<option value=5> 5</option>
+</select>
+
+<button id="roundsbtn">Select</button>
+	
+	<p> Please choose a move </p>
+	<button id="rock" value="rock" >Rock</button>
+	<button id="paper" value="paper">Paper</button>
+	<button id="scissors" value="scissors">Scissors</button>
+<div id="display">
+
+</div>
+<button id="restart" onClick="window.location.reload();">Play game again</button>
+	<script type="text/javascript" src="script.js"></script>
+        
     </body>
+
+
 </html>
